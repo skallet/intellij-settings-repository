@@ -1,0 +1,5 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id=":cursive.repl.actions/interrupt">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+</keymap>
