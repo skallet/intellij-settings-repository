@@ -1,5 +1,16 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id=":cursive.actions.paredit/thread-form" />
   <action id=":cursive.repl.actions/interrupt">
     <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id=":cursive.repl.actions/run-top-sexp">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+    <keyboard-shortcut first-keystroke="ctrl alt comma" second-keystroke="b" />
+  </action>
+  <action id=":cursive.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" second-keystroke="shift t" />
+  </action>
+  <action id=":cursive.testing.actions/run-single-test">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" second-keystroke="t" />
   </action>
 </keymap>
